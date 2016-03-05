@@ -1,0 +1,68 @@
+{
+  "name": "bitmap",
+  "version": "1.0.0",
+  "description": "bitmap transformer",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankihg/bitmap_transformer.git"
+  },
+  "keywords": [
+    "bitmap"
+  ],
+  "author": "ankihg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankihg/bitmap_transformer/issues"
+  },
+  "homepage": "https://github.com/ankihg/bitmap_transformer#readme",
+  "eslintConfig": {
+    "rules": {
+      "no-console": 0,
+      "indent": [
+        2,
+        2
+      ],
+      "quotes": [
+        2,
+        "single"
+      ],
+      "linebreak-style": [
+        2,
+        "unix"
+          ],
+          "semi": [
+            2,
+            "always"
+          ]
+    },
+    "env": {
+      "es6": true,
+      "node": true,
+      "browser": true
+    },
+    "globals": {
+      "describe": false,
+      "it": false,
+      "beforeEach": false,
+      "afterEach": false,
+      "before": false,
+      "after": false
+    },
+    "ecmaFeatures": {
+      "modules": true,
+      "experimentalObjectRestSpread": true
+    },
+    "extends": "eslint:recommended"
+  }
+}
